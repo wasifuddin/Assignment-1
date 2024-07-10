@@ -24,7 +24,8 @@
           </p>
         </div>
         <div class="btn-div">
-          <button class="btn-config">Contact Me</button>
+        <button onclick="document.getElementById('footer').scrollIntoView({ behavior: 'smooth' });" class="btn-config">Contact Me</button>
+
         </div>
       </div>
     </header>
@@ -90,24 +91,43 @@
                     <img src="assets/html.png" alt="">
                     <h2>HTML</h2>
                     <p class="lang-p">Lorem Ipsum is simply dummy text of the printing.</p>
-                    <a href="https://www.w3schools.com/html/html_intro.asp" class="lang-a">Learn More</a>
+                    <a href="https://www.w3schools.com/html/html_intro.asp" target="_blank" class="lang-a">Learn More</a>
                 </div>
                 <div class="lang-card2">
                     <img src="assets/css.png" alt="">
                     <h2>CSS</h2>
                     <p class="lang-p">Lorem Ipsum is simply dummy text of the printing.</p>
-                    <a href="https://www.w3schools.com/cssref/index.php" class="lang-a">Learn More</a>
+                    <a href="https://www.w3schools.com/cssref/index.php" target="_blank"  class="lang-a">Learn More</a>
                 </div>
                 <div class="lang-card3">
                     <img src="assets/js.png" alt="">
                     <h2>JavaScript</h2>
                     <p class="lang-p">Lorem Ipsum is simply dummy text of the printing.</p>
-                    <a href="https://www.w3schools.com/jsrEF/default.asp" class="lang-a">Learn More</a>
+                    <a href="https://www.w3schools.com/jsrEF/default.asp"  target="_blank"  class="lang-a">Learn More</a>
                 </div>
             </div>
         </div>
       </section>
+      <section>
+        <div class="support-container">
+            <h1>I need Support</h1>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+            <form action="">
+                <input type="text" name="" id="" placeholder="Suggest me any feedback for me" class="text-box">
+                <button type="button" class="support-btn">Submit</button></form>
+        </div>
+      </section>
     </main>
-    <footer></footer>
+    <footer id="footer">
+        <div class="foot-div">
+            <div class="foot-txt">
+                <h4>An Open Commitment by Wasif Uddin</h4>
+            </div>
+            <div class="social-div">
+                <a href="https://www.facebook.com/wasif.uddin.1217" target="_blank"><img src="assets/facebook.png" alt=""></a>
+                <a href="https://github.com/wasifuddin" target="_blank"><img src="assets/github.png" alt=""></a>
+                <a href="https://www.linkedin.com/in/wasif-uddin-2a4807204/" target="_blank"><img src="assets/linkedin-icon 1.png" alt=""></a></div>
+        </div>
+    </footer>
   </body>
 </html>
