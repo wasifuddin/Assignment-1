@@ -121,7 +121,7 @@
 
 .card-2 {
   display: flex;
-  justify-content: start
+  justify-content: start;
   align-items: left;
   padding: 48px;
 }
@@ -180,4 +180,126 @@
   letter-spacing: 0%;
   width: 150px;
   height: 48px;
+}
+
+.video-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.video-content > h1 {
+  width: 852px;
+  height: 39px;
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 32px;
+  font-weight: 800;
+  line-height: 37px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+.video-content > p {
+  width: 852px;
+  height: 52px;
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+
+.target-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.target-div > h1 {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 32px;
+  font-weight: 800;
+  line-height: 37px;
+  letter-spacing: 0%;
+  text-align: center;
+  width: 852px;
+  height: 39px;
+  margin: 24px 0px;
+}
+
+.target-div > p {
+  width: 852px;
+  height: 52px;
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin: 24px 0px;
+}
+
+.lang-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.lang-p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  width: 284px;
+  height: 52px;
+}
+
+.lang-h2 {
+  font-size: 24px;
+  font-weight: 800;
+  line-height: 36px;
+  width: 284px;
+  height: 36px;
+}
+
+.lang-a {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 19px;
+  color: rgb(13, 19, 33);
+}
+.lang-card1 {
+  border-radius: 16px;
+  background: rgba(255, 76, 30, 0.05);
+  padding: 40px;
+  margin: 0px 24px;
+  width: 364px;
+  height: 300px;
+}
+
+.lang-card2 {
+  border-radius: 16px;
+  background: rgba(0, 76, 232, 0.05);
+  padding: 40px;
+  margin: 0px 24px;
+  width: 364px;
+  height: 300px;
+}
+
+.lang-card3 {
+  border-radius: 16px;
+  background: rgba(255, 223, 0, 0.05);
+  padding: 40px;
+  margin: 0px 24px;
+  width: 364px;
+  height: 300px;
 }
